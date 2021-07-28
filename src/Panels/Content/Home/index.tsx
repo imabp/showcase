@@ -1,6 +1,8 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { Grid } from "@material-ui/core";
 import { UserConfig } from "./../config";
+import { NavButton } from "./../../../components/index";
 const Home = (props: UserConfig) => {
   return (
     <>
@@ -18,10 +20,24 @@ const Home = (props: UserConfig) => {
         </Grid>
         <Grid item xs={12}>
           <h3>{props.quote}</h3>
+          <NavButton isExternal={false} path="/resume" display="View Resume" />
+
+          <body>
+            Proudly Volunteering... <br />
+            <br />
+            <b>#Microsoft</b> Gold Student Ambassador
+            <br />
+            <b>#Postman</b> Student Expert and Leader
+            <br />
+            <b>#Judge</b> at MLH Fellowship for
+            <br />
+            Production Engineering Fellows
+          </body>
         </Grid>
-        <Grid xs={12}>
+        <Grid item xs={12}>
           Sounds Interesting?
           <h3>{props.email}</h3>
+          <br />
         </Grid>
       </Grid>
     </>

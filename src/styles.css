@@ -15,13 +15,13 @@
   font-family: "Fira Code";
 }
 h1 {
-  font-size: 6vmax;
+  font-size: 4vmax;
 }
 h2 {
-  font-size: 3vmax;
+  font-size: 2vmax;
 }
 h3 {
-  font-size: 2vmax;
+  font-size: 1vmax;
 }
 h4 {
   font-size: vmax;
@@ -33,15 +33,19 @@ h6 {
   font-size: 1vmax;
 }
 body {
-  font-size: 1.6vmax;
+  font-size: 1vmax;
 }
 .rightPhanel {
   background: #5c3095;
   width: 50%;
+  color: white;
+  align-items: center;
+  padding: calc(100% - 98%);
 }
 .leftPanel {
   background: #fff6ec;
   width: 50%;
+  padding: calc(100% - 98%);
 }
 
 * {
