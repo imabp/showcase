@@ -27,18 +27,21 @@ export default function App() {
           </h4>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={12} lg={12}>
-          <center>
+        <Grid container xs={12} sm={12} md={12} lg={12}
+        alignItems="center"
+        direction="column"
+        >
+          {/* <Center> */}
             {Routes.map((el) => (
               <>
                 <NavButton
-                  path={el.path as string}
-                  isExternal={el.isExternal as boolean}
-                  display={el.display as string}
+                  path={el.path?el.path:"/"}
+                  isExternal={el.isExternal?el.isExternal:false}
+                  display={el.display?el.display:""} 
                 />
               </>
             ))}
-          </center>
+          {/* </Center> */}
         </Grid>
       </Grid>
     </Grid>
