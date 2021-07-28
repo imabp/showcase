@@ -4,6 +4,7 @@ export type UserConfig = {
   subtitle: string;
   github: string;
   twitter: string;
+  linkedin: string;
   quote: string;
   email: string;
 };
@@ -14,6 +15,7 @@ export const User: UserConfig = {
   subtitle: "Software Developer",
   github: "imabp",
   twitter: "imabptweets",
+  linkedin: "imabp",
   quote: "I craft software with purpose...",
   email: "contact@abirpal.co"
 };

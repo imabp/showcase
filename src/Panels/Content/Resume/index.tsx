@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 import { PDFObject } from "react-pdfobject";
 const Resume = () => {
   return (
@@ -14,6 +15,8 @@ const Resume = () => {
           >
             imabp.github.io/resume
           </a>
+          <br />
+          <Link to="/">Back to Home</Link>
         </u>
       </h4>
       <PDFObject
