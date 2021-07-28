@@ -3,7 +3,6 @@
         "./src/**/*"
     ],
     "compilerOptions": {
-        "noFallthroughCasesInSwitch": true,
         "strict": true,
         "esModuleInterop": true,
         "lib": [
