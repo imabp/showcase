@@ -41,6 +41,8 @@ body {
   color: white;
   align-items: center;
   padding: calc(100% - 98%);
+  background-image: url("https://media.discordapp.net/attachments/834130556865347645/870413118981943356/submerged_4k_desktop.png");
+  background-size: cover;
 }
 .leftPanel {
   background: #fff6ec;
@@ -57,4 +59,14 @@ body {
   display: flex;
   flex-direction: "column";
   justify-content: space-around;
+}
+.terminal {
+  max-width: 100% !important;
+  min-width: 100% !important;
+  max-height: calc(100% - 60%) !important;
+  min-height: calc(100% - 60%) !important;
+  height: calc(100% - 60%) !important;
+  width: 100% !important;
+  border: 2px solid white;
+  overflow: hidden;
 }
