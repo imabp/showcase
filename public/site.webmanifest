@@ -1,0 +1,58 @@
+{
+    "name": "Abir Pal",
+    "short_name": "What do you think about my folio?",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone",
+    "shortcuts": [
+        {
+            "name": "Connect",
+            "short_name": "Problem Solving, Typescript Dev and Product Building",
+            "description": "Connect helps you to know ways, you can reach out.",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Resume",
+            "short_name": "View Abir's Resume",
+            "description": "Abir can help you with Software Dev, DevRel, Brand Growth and Consultancy, ",
+            "url": "/resume",
+            "icons": [
+                {
+                    "src": "/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Live: Postman API Conference",
+            "short_name": "Abir is speaking at Postman API Conf on Aug 7",
+            "description": "View Abir's Slide Deck for Postman Student Summit.",
+            "url": "/slides/postmanstudentsummit",
+            "icons": [
+                {
+                    "src": "/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ]
+}
